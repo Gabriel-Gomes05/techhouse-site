@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechHouse Soluções Digitais</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <nav class="container">
+    <a class="brand" href="#">TechHouse</a>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#testimonials">Depoimentos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero container">
+  <h1>Soluções digitais modernas para o seu negócio</h1>
+  <p>Desenvolvimento de sites, automação e dashboards profissionais com foco em performance.</p>
+  <a class="cta" href="#contact">Solicitar contato</a>
+</section>
+
+<main class="container">
+  <section id="services">
+    <h2>Serviços</h2>
+    <div class="grid">
+      <article class="card reveal">
+        <h3>Desenvolvimento Web</h3>
+        <p>Sites responsivos, páginas rápidas e interfaces focadas em experiência do usuário.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Automação de Tarefas</h3>
+        <p>Scripts e soluções que reduzem custos e aumentam produtividade.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Dashboards Inteligentes</h3>
+        <p>Power BI e relatórios interativos para decisões rápidas.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about reveal">
+    <h2>Sobre</h2>
+    <p>Este projeto demonstra minhas habilidades em front-end, criação de interfaces modernas, sistemas responsivos e boas práticas de UI/UX.</p>
+  </section>
+
+  <section id="testimonials" class="testimonials reveal">
+    <h2>Depoimentos</h2>
+    <blockquote>“Profissional incrível! Entregou rápido, com qualidade e superou expectativas.” — Cliente</blockquote>
+  </section>
+
+  <section id="contact" class="contact reveal">
+    <h2>Entre em contato</h2>
+    <form id="contactForm">
+      <label>Nome<input name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Mensagem<textarea name="message" required></textarea></label>
+      <button type="submit">Enviar</button>
+      <p id="formMsg" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  © 2025 TechHouse — Projeto de portfólio criado por Gabriel Gomes
+</footer>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<!-- Main script -->
+<script src="script.js" defer></script>
+</body>
+</html>
