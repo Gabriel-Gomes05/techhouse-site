@@ -1,37 +1,36 @@
-# 🌐 TechHouse — Site Institucional Premium
 
-Bem-vindo ao repositório do **TechHouse**, um site institucional moderno, totalmente responsivo e desenvolvido como projeto de portfólio profissional. Este projeto demonstra habilidades de **Front-End Avançado**, incluindo:
+# 🌐 TechHouse – Site Institucional Premium
 
-- GSAP (animações profissionais)
-- Modo Dark Premium
-- Glassmorphism
-- Responsividade avançada
-- ScrollTrigger
-- Neon Hover Effects
-- UI moderna nível 2025
+Este é um site institucional profissional desenvolvido para demonstrar habilidades em **desenvolvimento web**, **UI/UX**, **animações modernas** e **responsividade avançada**.  
+O projeto foi separado em **HTML, CSS e JavaScript**, mantendo organização profissional e compatibilidade total com **GitHub Pages**.
 
 ---
 
-## 🚀 Demonstração
-Você pode abrir o arquivo `index.html` diretamente no navegador ou hospedar em qualquer serviço de arquivos estáticos (Netlify, Vercel, GitHub Pages).
+## 🚀 Tecnologias Utilizadas
+- **HTML5**  
+- **CSS3 (responsivo e otimizado)**  
+- **JavaScript puro (DOM, interações e animações)**  
+- **GSAP + ScrollTrigger**  
+- **Google Fonts**  
 
 ---
 
-## 🛠 Tecnologias Utilizadas
-
-- **HTML5** — Estrutura da página
-- **CSS3** — Estilos, Glassmorphism, Responsividade
-- **JavaScript** — Funcionalidades gerais
-- **GSAP 3** — Animações avançadas
-- **GSAP ScrollTrigger** — Animações ativadas pelo scroll
-- **Unsplash Images** — Imagens profissionais de alta qualidade
+## 🎨 Recursos do Projeto
+- Layout moderno e limpo  
+- Seções: Hero, Serviços, Sobre, Depoimentos e Contato  
+- Botão de modo **Dark Mode**  
+- Animações suaves GSAP  
+- Cards com efeitos visuais  
+- Responsivo para dispositivos móveis  
+- Scroll reveal personalizado  
+- Estrutura separada (index.html, styles.css, script.js)
 
 ---
 
 ## 📁 Estrutura do Projeto
 
 ```
-techhouse_site/
+/techhouse-site
 │── index.html
 │── styles.css
 │── script.js
@@ -40,33 +39,47 @@ techhouse_site/
 
 ---
 
-## ▶️ Como Rodar Localmente
+## 🖥️ Deploy no GitHub Pages
 
-### Método 1 — Abrir diretamente
-Clique duas vezes em `index.html` para abrir no navegador.
+O projeto está pronto para GitHub Pages.
 
-### Método 2 — VS Code + Live Server
-1. Abra a pasta no VS Code
-2. Instale a extensão **Live Server**
-3. Clique com o botão direito em `index.html` → **Open with Live Server**
+1. Vá em **Settings**
+2. Clique em **Pages**
+3. Em *Source*, escolha:
+   - **Deploy from a branch**
+   - Branch: `main`
+   - Folder: `/ (root)`
+4. Salve e aguarde o link aparecer
 
-### Método 3 — Servidor local (Python)
-```bash
-python -m http.server 8000
+---
+
+## 📸 Screenshots (adicione aqui imagens do site)
+Você pode adicionar screenshots como:
+
 ```
-Acesse: `http://localhost:8000`
+![Home](./screenshots/home.png)
+![Serviços](./screenshots/services.png)
+```
 
 ---
 
-## 📸 Sugestão de Screenshots
-Adicione screenshots do Hero, seção Serviços, Modo Dark e versão mobile para enriquecer o README no GitHub.
+## 📬 Contato
+
+Desenvolvido por **Gabriel Gomes**  
+📧 Email: Bielinho012@gmail.com  
+GitHub: https://github.com/Gabriel-Gomes05  
 
 ---
 
-## 💼 Criado por
-**Gabriel Gomes** — Desenvolvedor Web Full Front-End
+## 🏆 Objetivo do Projeto
+Este projeto faz parte do portfólio profissional e demonstra:
+
+- Organização de código  
+- Domínio de HTML/CSS/JS  
+- Uso de animações modernas  
+- Clean code  
+- Criação de interfaces profissionais  
+
+Se quiser ver mais projetos ou solicitar um trabalho, basta entrar em contato!
 
 ---
-
-## 📝 Licença
-Uso livre para demonstração e portfólio.
